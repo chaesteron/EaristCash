@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary">
+
+    <ImageView
+        android:layout_width="411dp"
+        android:layout_height="582dp"
+        android:layout_marginStart="-6dp"
+        android:layout_marginLeft="-6dp"
+        android:layout_marginTop="-118dp"
+        app:srcCompat="@drawable/green"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/generateQR"
+        android:layout_width="275dp"
+        android:layout_height="167dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="6dp"
+        app:srcCompat="@drawable/baseline_wallet_24" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/register_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="560dp"
+            android:background="@color/design_default_color_secondary"
+            android:gravity="center_vertical"
+            android:text="Register User"
+            android:textColor="@color/white"
+            tools:ignore="TextContrastCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/register_studentID"
+            android:layout_width="258dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="340dp"
+            android:background="@drawable/round_corner"
+            android:ems="10"
+            android:gravity="center|start"
+            android:hint="Student Number"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/register_name"
+            android:layout_width="258dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/round_corner"
+            android:ems="10"
+            android:gravity="center|start"
+            android:hint="Full Name"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="329dp"
+        android:layout_marginTop="400dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <CheckBox
+                android:id="@+id/termsAndAgreementCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColorLink="@color/primary" />
+
+            <TextView
+                android:id="@+id/termsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Agree to terms and agreement"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/register_password"
+                android:layout_width="258dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="480dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/round_corner"
+                android:ems="10"
+                android:gravity="center|start"
+                android:hint="Password"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/register_phone"
+                android:layout_width="258dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="410dp"
+                android:background="@drawable/round_corner"
+                android:ems="10"
+                android:gravity="center|start"
+                android:hint="Phone Number"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/register_email"
+                android:layout_width="258dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="270dp"
+                android:background="@drawable/round_corner"
+                android:ems="10"
+                android:gravity="center|start"
+                android:hint="School Email"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

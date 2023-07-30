@@ -1,0 +1,4 @@
+<!-- straight_line.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/white" /> <!-- Change the color here -->
+</layer-list>

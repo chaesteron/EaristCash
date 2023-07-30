@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "256440178645",
+    "firebase_url": "https://mobapp-fb11a-default-rtdb.firebaseio.com",
+    "project_id": "mobapp-fb11a",
+    "storage_bucket": "mobapp-fb11a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256440178645:android:c3b4fbae37385a44ed4f5c",
+        "android_client_info": {
+          "package_name": "com.example.it3cpartialappsgrp8"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256440178645-eri7mv187m5tgpfsjto7i4g6403f2mam.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcVKnyIK3d2L1Lyhr9ZoTa5e_2U7nrAEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256440178645-eri7mv187m5tgpfsjto7i4g6403f2mam.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
